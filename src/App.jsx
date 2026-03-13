@@ -1,6 +1,10 @@
+import Card from "./components/Card";
+
 const App = () => {
   return (
-    <div>App</div>
+    <div className="container">
+      <Card />
+    </div>
   );
 };
 
